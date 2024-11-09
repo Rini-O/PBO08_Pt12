@@ -4,9 +4,9 @@ Selamat datang di laporan pratikum **Pemrograman Berorientasi Objek**! 🎉😄
 
 ## 📖 Deskripsi
 
-Laporan ini menjelaskan pengembangan aplikasi Java berbasis GUI menggunakan Java Swing dan JPA (Java Persistence API) untuk mengelola data mata kuliah dengan operasi CRUD (Create, Read, Update, Delete). Data mata kuliah yang ditampilkan dalam tabel berisi informasi Kode MK, SKS, Nama Mata Kuliah, dan Semester Ajar, yang disimpan dalam database menggunakan pendekatan persistence.
+Laporan ini menjelaskan aplikasi Java berbasis GUI menggunakan `Java Swing` dan `JPA `(Java Persistence API) untuk mengelola data mata kuliah dengan sistem operasi CRUD (Create, Read, Update, Delete). Data mata kuliah yang ditampilkan dalam tabel berisi informasi Kode MK, SKS, Nama Mata Kuliah, dan Semester Ajar, yang kemudian disimpan kedalam database menggunakan pendekatan persistence.
 
-Aplikasi ini menggunakan `EntityManager` dari JPA untuk menghubungkan data secara langsung dengan database dan menyederhanakan proses pengelolaan data. Pada fungsi tambah, ubah, dan hapus data, sistem secara otomatis memperbarui tabel agar pengguna dapat melihat data terbaru. Selain itu, aplikasi ini mendukung fitur cetak laporan menggunakan JasperReports untuk menghasilkan laporan terstruktur, serta menyediakan tombol upload yang memungkinkan pengguna mengimpor data dari file CSV.💻✨
+Pada aplikasi ini menggunakan `EntityManager` dari `JPA` untuk menghubungkan data secara langsung dengan database dan menyederhanakan proses pengelolaan data. Pada operasi `CRUD` (Create, Read, Update,Delete) maka sistem secara otomatis memperbarui tabel dan menampilka data terbaru. Selain itu, terdapat botton `cetak` dengan  menggunakan `JasperReports` untuk menghasilkan laporan data yang dimasukkan serta menyediakan button `upluod` yang dapat digunakan untuk mengimpor data dari file CSV.💻✨
 
 🔗 Langkah - langkah :
 
